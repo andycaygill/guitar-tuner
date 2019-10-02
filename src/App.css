@@ -1,22 +1,30 @@
+html {
+	background-color: #fce67c;
+}
+
 .App {
-  text-align: center;
+	text-align: center;
+	width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+.pedal {
+	max-height: 80vh;
+	min-height: 400px;
+	margin: 20px auto;
+}
+.tune-scale {
+	position: relative;
+	border: 1px solid red;
+	padding: 25px;
+	width: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.tune-scale__needle {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	left: 0;
+	width: 2px;
+	margin-left: -1px;
+	background-color: red;
 }
